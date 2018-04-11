@@ -1,0 +1,116 @@
+.navigation
+  max-width 980px
+  margin 0 auto 
+  padding-top 80px
+  display flex
+
+.navigation-container
+  margin-left 45px
+
+.nav-container-list
+  display flex
+ 
+  width 700px
+  justify-content space-between
+
+
+.nav-container-list__item
+  position relative
+  border-radius: 50%;
+  background-color #20cddf
+  width: 60px;
+  height: 60px;
+  list-style none
+  display flex
+  flex-direction column
+  &:after
+    content ""
+    background-image: -moz-linear-gradient( 90deg, rgb(221,221,221) 0%, rgb(235,235,235) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(221,221,221) 0%, rgb(235,235,235) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(221,221,221) 0%, rgb(235,235,235) 100%);
+    opacity: 1;
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    opacity 0.8
+    top 60px
+    left 5px
+    border-radius 50%
+  &:hover
+    background-color #e34168
+    transition-duration: 0.4s;
+    transform  translateY(-20px)  
+    a
+      color #e34168  
+    p
+      transition-duration: 0.4s;
+      transform translateY(20px)    
+      color #e34168 
+    .nav-container-list__item&:after
+      transition-duration: 0.4s;
+      transform translateY(20px) scale(0.8,0.8)   
+     
+  &:nth-child(1)
+    img
+      position absolute
+      top 17px
+      right 7px
+    a
+      margin-top 40px  
+      width 65px
+      margin-left -1px
+  &:nth-child(2)
+    img
+      position absolute
+      top 14px
+      right 10px
+    a
+      margin-top 40px  
+      width 105px
+      margin-left -19px
+  &:nth-child(3)
+    img
+      position absolute
+      top 16px
+      right 12px
+    a
+      margin-top 39.5px  
+      width 95px
+      margin-left -12px    
+  &:nth-child(4)
+    img
+      position absolute
+      top 14px
+      right 10px
+    a
+      margin-top 39px  
+      width 60px
+  &:nth-child(5)
+    img
+      position absolute
+      top 15px
+      right 11px
+    a
+      margin-top 39px  
+      margin-left -2px
+      width 60px        
+  p
+    display block
+    text-decoration none
+    font-size: 12px;
+    font-family: "Intro Regular";
+    color: rgb(91, 91, 91);
+    text-transform: uppercase;
+    text-align: left
+    
+   a
+    text-decoration none 
+    
+
+
+
+
+  
+
+   
+
